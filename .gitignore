@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+.vercel
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+
+# 환경변수 — GAS URL, 토큰, 사내 링크 등 민감정보. 템플릿(.env.example)만 커밋.
+.env*
+!.env.example
+
+# 키·인증서·자격증명
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# 로컬에서 내려받은 데이터 덤프 (고객사·담당자 정보 포함 가능)
+*.csv
+*.xlsx
+data/
+dumps/
